@@ -15,6 +15,8 @@ df = pd.read_csv('/home/nicodona/Desktop/08_gap-every-five-years.csv', sep='\t')
 
 # subset = df[['country', 'continent', 'lifeExp']]
 # print(subset)
+# .loc method is used to access rows and or cloumns when the columns must be specified as their headings meanwhile iloc is used to spefiy columns number too
+# .iloc can take negative intergers to for both rows and columns
 
 # print(df.loc[0]) # prints a particular row specified
 # print(df.tail(n=1)) # give the data of the last row
@@ -24,4 +26,11 @@ df = pd.read_csv('/home/nicodona/Desktop/08_gap-every-five-years.csv', sep='\t')
 # subs = df.loc[:, ['year', 'pop']] # prints selected columns with all rows subs = df.iloc[:, [1, 2 -1]]
 # print(subs)
 
-print(df.loc[42, 'country']) # produces the data at row 42 on the country row
+# print(df.loc[42, ['country']]) # produces the data at row 42 on the country row
+# print(df.iloc[[0,99,999], [1,3,2]]) # proces specific rows and specific columns
+
+# the groupby method: it helps group items using a specific criteria eg groupby year fetches all the data of that year specified by the seconfd criteria
+# print(df.groupby('year')['lifeExp'].mean())
+
+life = df.groupby('year')['lifeExp'].mean()
+life.plot()
