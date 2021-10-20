@@ -34,3 +34,7 @@ df = pd.read_csv('/home/nicodona/Desktop/08_gap-every-five-years.csv', sep='\t')
 
 life = df.groupby('year')['lifeExp'].mean()
 life.plot()
+
+
+# Data vitualisation
+# histogram, frequency table, frequency polygon,ogive, relative frequecy frequency ogive, pareto chart, scatter plot,
