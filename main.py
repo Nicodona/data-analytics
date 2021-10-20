@@ -37,4 +37,7 @@ life.plot()
 
 
 # Data vitualisation
-# histogram, frequency table, frequency polygon,ogive, relative frequecy frequency ogive, pareto chart, scatter plot,
+# histogram, frequency table, frequency polygon,ogive, relative frequecy frequency ogive, pareto chart, scatter plot, graph, barchart, piechart, multiple barchart, simple pictogram
+
+# central tendency
+# it is number that is used to represent a group of numbers eg arithmetic mean
