@@ -41,3 +41,24 @@ life.plot()
 
 # central tendency
 # it is number that is used to represent a group of numbers eg arithmetic mean
+# mean ' mode, group mean, percentile etc
+
+# dispersion
+# this is the act of representing data using different motive eg range etc
+#  standard devistaion is given by taking the mean and substactinfg each data item from it
+# it will give a zero so the best way to analyse it is by taking the absolute value or by squaring it
+#  standard deviation gives us the risk of the business while the mean gives us the beterness of the business
+
+# WAYS TO MEASURE DISPERSION
+# 1 SKEWNESS--- it can either be positively skewed (thats from the right hand side ) or negatively skewed that from left hand or not skewed
+#  to know the skewness we take the S = 3(u-M/a) mean minus median divided by phi
+# 2 kurtosis
+
+
+
+
+
+
+
+
+#range, quartier = dividing data into 4 of 100 percentile hence 25 for q1 50 for q2 etc in this sense we can look for the percentile and the finding the quartier by taking the number from yhe percentile as the position
