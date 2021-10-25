@@ -54,8 +54,22 @@ life.plot()
 #  to know the skewness we take the S = 3(u-M/a) mean minus median divided by phi
 # 2 kurtosis
 
+#  how to claculate
+#  1 mean
+#  after importing pandas and np
+#  and loading the data into python eg pd.read_excel()
+# x = file[a column] then np.mean(x) prints the mean of the column
 
+# 2 median
+# np.median(x) gives the median of the clumn x
 
+# 3 mode
+# import scipy and then from scipy import stats
+# stats.mode(x)
+
+# 4 percentile
+#  import numpy and then a = np.array[1,2 3]
+#  and then np.percentile(a, 50) this gives you the value at the 50 percentile
 
 
 
